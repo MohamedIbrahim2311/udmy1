@@ -1,5 +1,8 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
+import 'package:udmy1/final/Login_screen.dart';
+import 'package:udmy1/final/serandenter.dart';
+import 'package:udmy1/final/splash.dart';
 import 'package:udmy1/layout/home_layout.dart';
 import 'package:udmy1/modules/Login/Login_screen.dart';
 import 'package:udmy1/modules/Login/dashbord_scren.dart';
@@ -33,7 +36,7 @@ class MyApp extends StatelessWidget {
 
       debugShowCheckedModeBanner:false,
 
-        home:DashbordScreen(),
+        home:HomePage(),
 
     );
   }
